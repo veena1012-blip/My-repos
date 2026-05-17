@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Gallery</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }body {
+  background: linear-gradient(135deg, #f8f9ff, #e7ecff);
+  color: #222;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.caption {
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  background: #fff;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
+  border-radius: 30px;
+  background: #4f46e5;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  font-size: 14px;
+}
+
+.download-btn:hover {
+  background: #3730a3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+  font-size: 14px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>✨ My Memory Gallery ✨</h1>
+    <p>A beautiful collection of favorite memories and photos.</p><div class="gallery">
+
+  <div class="card">
+    <img src="https://i.ibb.co/C36XSZF1/IMG-20200309-093400.jpg" alt="IMG 20200309 093400">
+    <div class="caption">
+      Memory 1<br>
+      <a class="download-btn" href="https://i.ibb.co/C36XSZF1/IMG-20200309-093400.jpg" download>Save Photo</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://i.ibb.co/7NZTBk9c/IMG-20191023-120811.jpg" alt="IMG 20191023 120811">
+    <div class="caption">
+      Memory 2<br>
+      <a class="download-btn" href="https://i.ibb.co/7NZTBk9c/IMG-20191023-120811.jpg" download>Save Photo</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://i.ibb.co/sMjXZq4/IMG-20190618-103652.jpg" alt="IMG 20190618 103652">
+    <div class="caption">
+      Memory 3<br>
+      <a class="download-btn" href="https://i.ibb.co/sMjXZq4/IMG-20190618-103652.jpg" download>Save Photo</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://i.ibb.co/hFRy6q1N/IMG-1630.jpg" alt="IMG 1630">
+    <div class="caption">
+      Memory 4<br>
+      <a class="download-btn" href="https://i.ibb.co/hFRy6q1N/IMG-1630.jpg" download>Save Photo</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://i.ibb.co/N6fCJktr/IMG20231023084008.jpg" alt="IMG20231023084008">
+    <div class="caption">
+      Memory 5<br>
+      <a class="download-btn" href="https://i.ibb.co/N6fCJktr/IMG20231023084008.jpg" download>Save Photo</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://i.ibb.co/GfT4gKjk/IMG-20200922-085838.jpg" alt="IMG 20200922 085838">
+    <div class="caption">
+      Memory 6<br>
+      <a class="download-btn" href="https://i.ibb.co/GfT4gKjk/IMG-20200922-085838.jpg" download>Save Photo</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://i.ibb.co/4ZXFHf0m/COLOR-POP.jpg" alt="COLOR POP">
+    <div class="caption">
+      Memory 7<br>
+      <a class="download-btn" href="https://i.ibb.co/4ZXFHf0m/COLOR-POP.jpg" download>Save Photo</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://i.ibb.co/LDmGm8z6/IMG-20200216-123050-BEAUTY.jpg" alt="IMG 20200216 123050 BEAUTY">
+    <div class="caption">
+      Memory 8<br>
+      <a class="download-btn" href="https://i.ibb.co/LDmGm8z6/IMG-20200216-123050-BEAUTY.jpg" download>Save Photo</a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Made with ❤ as a personal photo memory website.
+</footer>
+
+  </div>
+</body>
+</html>
